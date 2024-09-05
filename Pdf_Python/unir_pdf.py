@@ -6,7 +6,7 @@ archivos = ["archivo1.pdf", "archivo2.pdf", "archivo3.pdf"]
 nom_resultado = "resultado_pdf.pdf"
 
 #Unir pdf
-pdf_final = PyPDF2.PdfFileMerger
+pdf_final = PyPDF2.PdfMerger()
 
 
 for nombre_archivo in archivos:
